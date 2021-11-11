@@ -1,13 +1,10 @@
 # Ejemplo de aplicación de principios SOLID en Python
 
-_Este repositorio presenta la aplicación de principios SOLID en lenguaje de programación PYTHON. El ejercicio se diseña en el marco del curso Fundamentos de Diseño del programa Ingeniería de Software de la Corporación Universitaria Iberoamericana.
+_Este repositorio presenta la aplicación de principios SOLID en lenguaje de programación PYTHON. El ejercicio se diseña en el marco del curso Fundamentos de Diseño del programa Ingeniería de Software de la Corporación Universitaria Iberoamericana. Si encuentras un error en el código o en la forma de aplicación de los principios por favor házmelo saber.
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 ### Pre-requisitos 📋
 
@@ -23,7 +20,7 @@ Visual Studio Code
 _No se hace necesario realizar instalación de la aplicación, basta con descargar los archivos .py y ejecutar para ver su funcionamiento.
 
 
-### Y las pruebas de estilo de codificación ⌨️
+### Single Responsability ⌨️
 
 _Explica que verifican estas pruebas y por qué_
 
@@ -31,7 +28,7 @@ _Explica que verifican estas pruebas y por qué_
 Da un ejemplo
 ```
 
-## Despliegue 📦
+## Open / Close Principle 📦
 
 _Agrega notas adicionales sobre como hacer deploy_
 

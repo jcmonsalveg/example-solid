@@ -1,6 +1,6 @@
-# Título del Proyecto
+# Ejemplo de aplicación de principios SOLID en Python
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Este repositorio presenta la aplicación de principios SOLID en lenguaje de programación PYTHON. El ejercicio se diseña en el marco del curso Fundamentos de Diseño del programa Ingeniería de Software de la Corporación Universitaria Iberoamericana.
 
 ## Comenzando 🚀
 
@@ -11,41 +11,17 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Tener instalado Python en el PC, además un editor de código como Visual Studio Code.
 
 ```
-Da un ejemplo
+Python
+Visual Studio Code
 ```
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_No se hace necesario realizar instalación de la aplicación, basta con descargar los archivos .py y ejecutar para ver su funcionamiento.
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
 
 ### Y las pruebas de estilo de codificación ⌨️
 

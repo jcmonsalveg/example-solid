@@ -13,7 +13,7 @@ class Car(ABC):
     def car_price(self)->int:
         pass
 
-class Renault(Car):
+class Renault(Car): 
     def car_price(self) -> int:
         return 18000
 

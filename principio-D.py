@@ -48,8 +48,8 @@ class Encendedor:
 
 b = Bombillo()
 switch = Encendedor(b)
-switch.press()
-switch.press()
+switch.presionar()
+switch.presionar()
 
 
         

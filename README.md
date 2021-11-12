@@ -20,7 +20,7 @@ Visual Studio Code
 _No se hace necesario realizar instalación de la aplicación, basta con descargar los archivos .py y ejecutar para ver su funcionamiento.
 
 
-### Single Responsability ⌨️
+### Single Responsability Principle ⌨️
 
 _Explica que verifican estas pruebas y por qué_
 
@@ -32,7 +32,7 @@ Da un ejemplo
 
 _Agrega notas adicionales sobre como hacer deploy_
 
-## Construido con 🛠️
+## LISKOV Substitution Principle 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 

@@ -1,78 +1,47 @@
 # Ejemplo de aplicación de principios SOLID en Python
 
-_Este repositorio presenta la aplicación de principios SOLID en lenguaje de programación PYTHON. El ejercicio se diseña en el marco del curso Fundamentos de Diseño del programa Ingeniería de Software de la Corporación Universitaria Iberoamericana. Si encuentras un error en el código o en la forma de aplicación de los principios por favor házmelo saber.
+Este repositorio presenta la aplicación de principios SOLID en lenguaje de programación PYTHON. El ejercicio se diseña en el marco del curso Fundamentos de Diseño del programa Ingeniería de Software de la Corporación Universitaria Iberoamericana. Si encuentras un error en el código o en la forma de aplicación de los principios por favor házmelo saber.
 
 ## Comenzando 🚀
 
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+La aplicación se encuentra disponible de manera pública, por tal razón puedes clonarla y trabajar sobre ella, el único fin de elaborar y compartir este código es educativo. Al interior de algunos de los archivos .py se indican las fuentes de las cuales se ha tomado la información.
 
-### Pre-requisitos 📋
+## Pre-requisitos 📋
 
-_Tener instalado Python en el PC, además un editor de código como Visual Studio Code.
+Tener instalado Python en el PC, además un editor de código como Visual Studio Code.
 
 ```
 Python
 Visual Studio Code
+Muchas ganas de aprender
 ```
 
-### Instalación 🔧
+## Instalación 🔧
 
-_No se hace necesario realizar instalación de la aplicación, basta con descargar los archivos .py y ejecutar para ver su funcionamiento.
+No se hace necesario realizar instalación de la aplicación, basta con descargar los archivos .py y ejecutar para ver su funcionamiento.
 
 
-### Single Responsability Principle ⌨️
+## Single Responsability Principle ⌨️
 
-_Explica que verifican estas pruebas y por qué_
+Este primer principio nos dice que una clase debe tener una única responsabilidad en la aplicación, es decir, que cada objeto de la aplicación hace solo una cosa. No se deben mezclar, según este principio, las difernetes capas de nuestra aplicación, por ejemplo la lógica de negocio con la lógica de presentación de la información.
 
-```
-Da un ejemplo
-```
 
-## Open / Close Principle 📦
+## Open / Closed Principle 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+Este principio, nombrado por primera vez por Bertrand Mayer, nos dice que un componente de software debe estar abierto para su exprensión pero cerrado para su modificación. En la medida en que nuestra aplicación crece no se modifican las clases existentes, sino que se generan nuevas clases o nuevas implementaciones de las clases existentes, esto nos permite agregar nuevas funcionalidades a nuestra aplicación sin la necesidad de modificar el código existente.
+
 
 ## LISKOV Substitution Principle 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+Este principio hace referencia al uso de las clases extendidas. Cuando se genera la herencia de una clase a la otra, no se ve afectado el comportamiento de la clase padre. 
 
 
+## Interface Segregation Principle 🖇️
 
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+Ninguna de las clases de nuestra aplicación debería depender de métodos que no utiliza. Las funciones que se crean dentro de una clase van a ser muy importantes para las demás clases que implementan esta clase. 
+
+
+## Dependency Inversion Principle 📖
+
+Las clases de alto nivel no deberían depender de las clases de bajo nivel, ambas deben depender de las abstracciones. Las abstracciones en su lugar no pueden depender de los detalles.
+

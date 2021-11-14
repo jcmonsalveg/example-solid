@@ -1,8 +1,11 @@
 """
-El principio de Substitución de LISKOV. 
+PRINCIPIO DE SUSTITUCIÓN DE LISKOV
 
 Los objetos deben poder ser reemplazados por instancias de sus subclases sin que
-afecte el correcto funcionamiento del sistema.
+afecte el correcto funcionamiento del sistema. Es decir, pasar objetos de las 
+clases hijas o subclases, en lugar de objetos directos de la clase padre.
+
+
 """
 
 class Car:

@@ -1,5 +1,5 @@
 """
-El principio de inversión de dependencias. 
+PRINCIPIO DE INVERSIÓN DE DEPENDENCIAS
 
 Es el último de los principios SOLID. Parte de dos reglas: las clases de alto nivel no deben depender de las
 clases de bajo nivel, ambas deben depender de las abstracciones. Las abstracciones no deben depender de los detalles,
@@ -15,12 +15,12 @@ dar cumplimiento a este principio.
 
 from abc import ABC, abstractmethod
 
-class Switchable(ABC):
+class Switchable(ABC): #Clase abstracta
     @abstractmethod
     def encender(self):
         pass
 
-    @abstractmethod
+    @abstractmethod #Método abstracto
     def apagar(self):    
         pass
 
@@ -50,6 +50,10 @@ b = Bombillo()
 switch = Encendedor(b)
 switch.presionar()
 switch.presionar()
+switch.presionar()
 
-
+"""
+Las clases abstractas permiten una única implementación de los métodos compartidos
+pues no pueden ser instanciadas directamente, solo se usan para construir subclases
+"""
         

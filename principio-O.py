@@ -1,7 +1,10 @@
 """
-Principio de abierto / cerrado
+PRINCIPIO ABIERTO / CERRADO
 
-Los componentes del software deben estar abiertos para su extensión, pero cerrados para su modificación. 
+Los componentes del software deben estar abiertos para su extensión, 
+pero cerrados para su modificación. Este principio permite que una 
+aplicación pueda crecer desde la implementación de nuevas subclases y métodos
+pero no modificar las clases existentes para evitar dañar el código.
 
 """
 

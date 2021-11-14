@@ -45,3 +45,5 @@ Ninguna de las clases de nuestra aplicación debería depender de métodos que n
 
 Las clases de alto nivel no deberían depender de las clases de bajo nivel, ambas deben depender de las abstracciones. Las abstracciones en su lugar no pueden depender de los detalles.
 
+
+Plantilla tomada de internet.
